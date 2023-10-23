@@ -1,0 +1,346 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "COA",
+        "City": "Hong Kong",
+        "2023 Asian Rank": 1,
+        "Address": "6-10 Shin Hing Street, Central, Hong Kong",
+        "Website": "https://coa.com.hk/"
+      },
+      "geometry": {
+        "coordinates": [
+          114.15209882681415,
+          22.284021196955877
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jigger & Pony",
+        "City": "Singapore",
+        "2023 Asian Rank": 2,
+        "Address": "165 Tanjong Pagar Road, 088539, Singapore",
+        "Website": "https://www.jiggerandpony.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          103.84347377139227,
+          1.2750780143480114
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2023 Asian Rank": 3,
+        "Name": "BKK Social Club",
+        "City": "Bangkok",
+        "Address": "300, 1 Charoen Krung Rd, Khwaeng Yan Nawa, Khet Sathon, Bangkok",
+        "Website": "https://www.fourseasons.com/bangkok/dining/lounges/bkk-social-club/?seo=google_local_bpy6_"
+      },
+      "geometry": {
+        "coordinates": [
+          100.51066788570142,
+          13.71174030202458
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2023 Asian Rank": 4,
+        "Address": "9F, 1 Chome-13-7, Nishishinjuku, Shinjuku City, 160-0023 Tokyo",
+        "Website": "https://www.ameblo.jp/kayama0927",
+        "Name": "Bar Benfiddich",
+        "City": "Tokyo"
+      },
+      "geometry": {
+        "coordinates": [
+          139.696609088802,
+          35.68946650416099
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Zest",
+        "City": "Seoul",
+        "2023 Asian Rank": 5,
+        "Address": "B1 26 KR 55 Dosan-daero 55-gil, Gangnam-gu, Seoul",
+        "Website": "https://www.instagram.com/zest.seoul"
+      },
+      "geometry": {
+        "coordinates": [
+          127.04128029305974,
+          37.52661918024404
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2023 Asian Rank": 6,
+        "Address": "672/65 Soi Charoen Krung 28, Bang Rak, Bangkok",
+        "Website": "https://www.tropiccitybkk.com/",
+        "Name": "Tropic City",
+        "City": "Bangkok"
+      },
+      "geometry": {
+        "coordinates": [
+          100.5153690171918,
+          13.730723290206285
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Nutmeg & Clove",
+        "City": "Singapore",
+        "2023 Asian Rank": 7,
+        "Address": "8 Purvis St, Singapore",
+        "Website": "https://www.nutmegclove.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          103.85508108438887,
+          1.2966439710953495
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2023 Asian Rank": 8,
+        "Address": "8 Finance St, Central, Hong Kong",
+        "Website": "https://www.fourseasons.com/zh_hant/hongkong/dining/lounges/argo/",
+        "City": "Hong Kong",
+        "Name": "Argo"
+      },
+      "geometry": {
+        "coordinates": [
+          114.1566480124776,
+          22.286635208336776
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Darkside",
+        "City": "Hong Kong",
+        "2023 Asian Rank": 9,
+        "Address": "Rosewood Hong Kong, Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong",
+        "Website": "https://www.darkside.hk/"
+      },
+      "geometry": {
+        "coordinates": [
+          114.17605277382745,
+          22.295104172366962
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Singapore",
+        "2023 Asian Rank": 10,
+        "Address": "40B Sago St, Singapore",
+        "Website": "https://sagohouse.sg/",
+        "Name": "Sago House"
+      },
+      "geometry": {
+        "coordinates": [
+          103.84377477844498,
+          1.282070519058749
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Paradiso | Barcelona | No. 1",
+        "Name": "Paradiso",
+        "City": "Barcelona",
+        "2022 World Rank": 1,
+        "Website": "https://paradiso.cat/en/",
+        "Address": "Carrer de Rera Palau, 4, 08003 Barcelona"
+      },
+      "geometry": {
+        "coordinates": [
+          2.183686635583257,
+          41.38371595016625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tayer/Elementary",
+        "City": "London",
+        "2022 World Rank": 2,
+        "Website": "https://tayer-elementary.com/",
+        "Address": "152 Old St, London EC1V 9BW"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09136419587105138,
+          51.52506007106686
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sips",
+        "City": "Barcelona",
+        "2022 World Rank": 3,
+        "Address": "C/ de Muntaner, 108, 08036 Barcelona",
+        "Website": "http://sips.barcelona/"
+      },
+      "geometry": {
+        "coordinates": [
+          2.1567166344464397,
+          41.38887863043479
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2022 World Rank": 7,
+        "City": "Barcelona",
+        "Name": "Two Schmucks",
+        "Website": "https://www.two-schmucks.com/",
+        "Address": "Carrer de Joaquín Costa, 52, 08001 Barcelona"
+      },
+      "geometry": {
+        "coordinates": [
+          2.165199106432425,
+          41.383150961288095
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Connaught Bar",
+        "City": "London",
+        "2022 World Rank": 8,
+        "Address": "Connaught, Carlos Pl, London W1K 2A",
+        "Website": "https://www.the-connaught.co.uk/restaurants-bars/connaught-bar/"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.14962979828527523,
+          51.51004256680483
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Licorería Limantour",
+        "City": "Mexico City",
+        "2022 World Rank": 4,
+        "Website": "Av. Álvaro Obregón 106, Roma Nte., Cuauhtémoc, 06700 Mexico City",
+        "Address": "https://limantour.tv/"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.15940714653743,
+          19.41811439455394
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Little Red Door",
+        "City": "Paris",
+        "2022 World Rank": 5,
+        "Website": "60 Rue Charlot, 75003 Paris",
+        "Address": "https://www.lrdparis.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          2.3635758481854623,
+          48.86366472217111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Double Chicken Please",
+        "City": "New York",
+        "2022 World Rank": 6,
+        "Website": "115 Allen St, New York, NY 1000",
+        "Address": "https://doublechickenplease.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.990540617701,
+          40.719589798853946
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2022 World Rank": 9,
+        "Name": "Katana Kitchen",
+        "City": "New York",
+        "Website": "531 Hudson St, New York, NY 10014",
+        "Address": "https://www.katanakitten.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.00640455787062,
+          40.73424625265943
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alquimico",
+        "City": "Cartagena",
+        "2022 World Rank": 10,
+        "Website": "Cl. del Colegio #34-24, Cartagena de Indias",
+        "Address": "https://alquimico.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.54966557966635,
+          10.423704308667837
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

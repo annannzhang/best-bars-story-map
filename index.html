@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>T_T (Tipsy_Tonight)</title>
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css"> 
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Forum&family=Nunito&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+
+</head>
+
+<body>
+<!--Introduction Page-->
+    <div class ="intro">
+      <!--want an h1 and img tag...you can style font etc in the css -->
+      <!--img src="gif.gif" alt="House Music" style="width:100%;"-->
+      <div class="intro-text">T(ipsy)_T(onight)</div>
+      <div class="intro-subtitle">Glimpse into World's BEST Bars in 2022/2023 <br>x<br>
+        Ann Zhang // Sep 2023
+      </div>
+    </div>
+
+<!--Introduction 2: Data-->
+
+
+<!--Page 2 -->
+  
+    <div class ="page2">
+      <!--want an h1 and img tag...you can style font etc in the css -->
+      <!--img src="gif.gif" alt="House Music" style="width:100%;"-->
+      <div class="page2-title">'Top 50 Bars': History, Criteria, and Winners</div>
+      <img class="logoimg1" src="img/World_50_Logo.jpg" width="600"> 
+      <img class="logoimg2" src="img/Asia_50_Logo.jpg" width="600">
+    
+      <div class="page2-body"> The Top 50 bars and restaurants started in xxxx. </div>
+    </div>
+
+<!--Page 3 -->    
+<div class ="data-page">
+  <!--want an h1 and img tag...you can style font etc in the css -->
+  <!--img src="gif.gif" alt="House Music" style="width:100%;"-->
+  <div class="page2-title">Visualizing Previous Winners</div>
+  <div class="data-subtitle">Data: World's (2017-2022) and Asia's Top 50 Bars by Cities (2017-2023) </div>
+  <div class="data" id="vis"></div>
+<script type="text/javascript" src="js/comparison-chart.js"></script>
+</div>
+
+<!-- Page 4
+
+      <div class ="intro-3" id="bar_numbers_asia">-->  
+        <!--want an h1 and img tag...you can style font etc in the css -->
+        <!--img src="gif.gif" alt="House Music" style="width:100%;"-->
+<!--
+        <div class="intro-text-2">Regional Highlight: Nightlife as Soft Power</div>
+        <div class="intro-subtitle_2">Data: Asia's Top 50 Bars by Cities (2017-2023) 
+          <br> <br> P.S.: it is interactive!
+        </div>
+        </div> -->
+      
+      
+
+
+<!--Page 5-->  
+  <main>
+    <!-- The map container, used by Leaflet -->
+    <div class="map" id="map"></div>
+    
+    <!-- The slides container -->
+    <section class="slide-section">
+  
+      <article class="slide" id="title-slide">
+        <h2>Where the BEST Bars at?</h2>
+        <p>Marked in the map are bars that ranked <b>top 10 in the world (the 2022 list)</b> or <br><b>top 10 in Asia (the 2023 list)</b>. </p>
+        <p>Geospatial visualization here helps us to better locate where the “best bars” are at and highlight noticeable trends or specific bars.</p>
+      </article>
+
+      <article class="slide" id="second-slide">
+        <h2>World's TOP 10 (2022)</h2>
+        <p>The map illustrates where TOP 10 bars of 2022 are located. From the visualization, we can see that most bars are located in transatlantic Western countries. In fact, the world’s top 50 and top 100 lists are also dominated by bars located in mega cities in more economically developed western countries. </p>
+        <p>It is not surprising to find such important award being dominated by western ‘developed’ countries, just like Michelin rating. With the rule of keeping the judges anonymous, it is very hard to unveil the ranking mechanism behind the scene. While there are bars in large Asian cities like Singapore and Hong Kong being included in this ranking game, there is a general lack of international representation and diversity. 
+         </p>
+      </article>
+
+      <article class="slide" id="third-slide">
+        <h2>Asia's Top 10 (2023)</h2>
+        <img src="img/COA.jpg" width="250">
+        <p><i>COA, currently ranked no. 1 in 2022 Asia's Top 50 Bars List</i></p>
+        <p>Similar to the World ranking, the Asian list also mainly contains of bars in more developed areas and mega cities. Those cities also coincides with major tourists’ destinating cities in the region. </p>
+      </article>
+
+      <article class="slide" id="fourth-slide">
+        <h2>City's 'Tipsy Soft Power' Highlight: <br> Hong Kong</h2>
+        <p>In 2023, 8 out of 50 top ranked Asian bars are located in Hong Kong. While is it unsurprising since Hong Kong has been a city famous for its thriving night life for long, it is still quite impressive to find a large number of high quality bars in the tight space on Hong Kong Island (especially near Central (Lan Kwai Fong) where most bars are at). </p>
+        <p>Interestingly, nonetheless, we can find Hong Tourism Board (governmental agency) in the list of official partners. The 2023 award ceremony also took place in Hong Kong. It can be partially inferred that the city is trying to utilize its vibrant nightlife and bars to attract more visitors and market itself. It is the ‘tipsy soft power’.</p>
+        <p>In the meantime, Rosewood hotel and Four Seasons hotel are both official partners as well. It may or may not be a coincident that Argo in Four Seasons and Darkside in Rosewood made it to Asia’s Top 10 in 2023. </p>
+      </article>
+
+      <article class="slide" id="fifth-slide">
+        <h2>Bars as Cultural Expression: <br> Nutmeg & Clove, <i>Singapore</i></h2>
+        <img src="img/Nutmeg & Clove Personalities Menu Pg. 1.jpg" width="250" >
+        <p><i>Nutmeg & Clove’s menubook –– it narrates the inspirations behind their specialty drinks.</i></p>
+        <p><i>“The DNA of this bar is Singapore in essence, it’s as simple as that,” </i> as described on the Asia Top 50 website. Ranked 7 in 2023, Nutmeg & Clove is undoubtedly offering something more than a tasty glass of cocktail –– it is the storytelling and cultural inspirations behind that makes it charismatic.<br><br> Their menubook, <i>Singapore Identities</i> , narrates in details the link between their 12 specialty drinks and 12 influential Singaporean celebrities who play definitive role in shaping Singaporean national and cultural identity. </p>
+        <p>Nutmeg & Clove is just one case –– as we are seeing more bars making bolder cultural expressions through the design of their specialty drinks, food menu, and interior design. Especially in Asian countries where bar culture remains an “imported commodity,” bars become a hub for fusion of eastern and western culture. And the fact that bars like Nutmeg & Clove are receiving high ranks on the list reveals a tendency that both the judges and ordinary customers are valuing more the stories and cultural expressions behind and beyond drinks.  </p>
+      </article>
+
+
+      <div class="slide-controls">
+        <button class="slide-nav-button" id="prev-slide"><</button>
+        <button class="slide-nav-button" id="next-slide">></button>
+      </div>
+    </section>
+    <div class="top-bar">
+    </div>
+
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/index.js" type="module"></script>
+</body>
+</html>

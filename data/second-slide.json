@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Paradiso | Barcelona | No. 1",
+        "Name": "Paradiso",
+        "City": "Barcelona",
+        "2022 World Rank": 1,
+        "Website": "https://paradiso.cat/en/",
+        "Address": "Carrer de Rera Palau, 4, 08003 Barcelona"
+      },
+      "geometry": {
+        "coordinates": [
+          2.183686635583257,
+          41.38371595016625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tayer/Elementary",
+        "City": "London",
+        "2022 World Rank": 2,
+        "Website": "https://tayer-elementary.com/",
+        "Address": "152 Old St, London EC1V 9BW"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09136419587105138,
+          51.52506007106686
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sips",
+        "City": "Barcelona",
+        "2022 World Rank": 3,
+        "Address": "C/ de Muntaner, 108, 08036 Barcelona",
+        "Website": "http://sips.barcelona/"
+      },
+      "geometry": {
+        "coordinates": [
+          2.1567166344464397,
+          41.38887863043479
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2022 World Rank": 7,
+        "City": "Barcelona",
+        "Name": "Two Schmucks",
+        "Website": "https://www.two-schmucks.com/",
+        "Address": "Carrer de Joaquín Costa, 52, 08001 Barcelona"
+      },
+      "geometry": {
+        "coordinates": [
+          2.165199106432425,
+          41.383150961288095
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Connaught Bar",
+        "City": "London",
+        "2022 World Rank": 8,
+        "Address": "Connaught, Carlos Pl, London W1K 2A",
+        "Website": "https://www.the-connaught.co.uk/restaurants-bars/connaught-bar/"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.14962979828527523,
+          51.51004256680483
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Licorería Limantour",
+        "City": "Mexico City",
+        "2022 World Rank": 4,
+        "Website": "Av. Álvaro Obregón 106, Roma Nte., Cuauhtémoc, 06700 Mexico City",
+        "Address": "https://limantour.tv/"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.15940714653743,
+          19.41811439455394
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Little Red Door",
+        "City": "Paris",
+        "2022 World Rank": 5,
+        "Website": "60 Rue Charlot, 75003 Paris",
+        "Address": "https://www.lrdparis.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          2.3635758481854623,
+          48.86366472217111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Double Chicken Please",
+        "City": "New York",
+        "2022 World Rank": 6,
+        "Website": "115 Allen St, New York, NY 1000",
+        "Address": "https://doublechickenplease.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.990540617701,
+          40.719589798853946
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "2022 World Rank": 9,
+        "Name": "Katana Kitchen",
+        "City": "New York",
+        "Website": "531 Hudson St, New York, NY 10014",
+        "Address": "https://www.katanakitten.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.00640455787062,
+          40.73424625265943
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alquimico",
+        "City": "Cartagena",
+        "2022 World Rank": 10,
+        "Website": "Cl. del Colegio #34-24, Cartagena de Indias",
+        "Address": "https://alquimico.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.54966557966635,
+          10.423704308667837
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
